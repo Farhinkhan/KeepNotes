@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  border: nones;
+}
+.fa-note-sticky {
+  background-color: transparent;
+}
+.heading {
+  height: 5%;
+  background-color: #1c0485;
+  padding: 2%;
+  font-size: larger;
+  color: aliceblue;
+}
+.btn-div {
+  margin: 0;
+  padding: 5px;
+  height: 10vh;
+}
+.btn {
+  font-weight: 500;
+  float: right;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+.note {
+  /* border: solid; */
+  height: 250px;
+  width: 20%;
+  margin: 2%;
+  float: left;
+  background-color: rgb(203, 224, 244);
+  padding: 20px;
+}
+textarea {
+  margin-top: 0%;
+  border: solid;
+  outline: none;
+  border: none;
+  height: 170px;
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(203, 224, 244);
+}
+
+.main {
+  margin-top: 0%;
+  height: 170px;
+  padding: 25px;
+  width: 100%;
+  /* border: solid; */
+  padding: 1%;
+  overflow: auto;
+  word-wrap: break-word;
+}
+
+.operations {
+  height: 7vh;
+}
+.edit,
+.delete {
+  border: none;
+  height: 7vh;
+  background-color: transparent;
+  float: right;
+}
+.fa-edit,
+.fa-trash-alt {
+  float: right;
+  padding: 5px;
+  color: black;
+  border-radius: 40%;
+  background-color: white;
+  height: 5vh;
+  margin-right: 0%;
+}
+.fa-trash-alt {
+  background-color: white;
+}
+.hidden {
+  display: none;
+}
